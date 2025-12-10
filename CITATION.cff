@@ -1,0 +1,9 @@
+cff-version: 1.2.0
+title: "ihtccast: Interfacial Heat Transfer Coefficient estimator for sand-cast steel"
+message: "If you use ihtccast in academic work, please cite it."
+version: "0.1.0"
+authors:
+  - family-names: "YourSurname"
+    given-names: "YourName"
+license: "MIT"
+repository-code: "https://github.com/yourname/ihtccast"
