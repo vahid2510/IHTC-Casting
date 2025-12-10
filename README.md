@@ -13,10 +13,16 @@ Interfacial Heat Transfer Coefficient (IHTC) estimator for sand-cast steel, buil
 
 ## Install
 ```bash
-pip install ihtccast
-# or from source
+# 1. ریپازیتوری را کلون کنید
+git clone https://github.com/vahid2510/IHTC-Casting.git# 2. وارد دایرکتوری پروژه شوید
+cd IHTC-Casting
+# 3. اطمینان حاصل کنید که build نصب باشد (برای ساخت wheel)
 pip install -U build
+
+# 4. پکیج را بسازید
 python -m build
+
+# 5. پکیج ساخته‌شده (wheel file) را نصب کنید
 pip install dist/ihtccast-*.whl
 ```
 
