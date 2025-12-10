@@ -9,7 +9,7 @@ description = "Estimate interfacial heat transfer coefficient (IHTC) between san
 readme = "README.md"
 requires-python = ">=3.9"
 license = {text = "MIT"}
-authors = [{ name = "Your Name", email = "you@example.com" }]
+authors = [{ name = "Vahid ahmadi Khorami", email = "vahid.ahmadi.khorami@gmail.com" }]
 keywords = ["casting","steel","IHTC","inverse heat conduction","foundry"]
 classifiers = [
   "Development Status :: 3 - Alpha",
@@ -33,10 +33,10 @@ dependencies = [
 ]
 
 [project.urls]
-Homepage = "https://github.com/yourname/ihtccast"
-Repository = "https://github.com/yourname/ihtccast"
-Issues = "https://github.com/yourname/ihtccast/issues"
-Documentation = "https://github.com/yourname/ihtccast#readme"
+Homepage = "https://github.com/vahid2510/ihtccast"
+Repository = "https://github.com/vahid2510/ihtccast"
+Issues = "https://github.com/vahid2510/ihtccast/issues"
+Documentation = "https://github.com/vahid2510/ihtccast#readme"
 
 [project.scripts]
 ihtc = "ihtccast.cli:main"
